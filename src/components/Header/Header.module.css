@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+
+  padding-top: 24px;
+  padding-left: 60px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.homeIcon {
+  height: 16px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.separatorIcon {
+  height: 24px;
+  width: 2px;
+}
+
+.projectIcon {
+  height: 12px;
+  width: 80px;
+}

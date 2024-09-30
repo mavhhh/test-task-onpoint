@@ -1,0 +1,36 @@
+.wrapper {
+  cursor: pointer;
+  margin: 0;
+  height: 45px;
+  border-radius: 50px;
+  background-color: #ff6aa2;
+  padding: 10px 16px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: none;
+  font-weight: normal;
+  display: inline-flex;
+  align-items: center;
+}
+
+.iconWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.text {
+  margin-left: 12px;
+  display: inline-block;
+  text-wrap: nowrap;
+}

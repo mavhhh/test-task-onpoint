@@ -1,0 +1,47 @@
+.textScrollContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.scrollBar {
+  writing-mode: vertical-lr;
+  direction: rtl;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+
+.scroll {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 4px;
+  height: 440px;
+  border-radius: 2px;
+  background-color: black;
+  transform: rotate(180deg);
+}
+
+.scroll::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  box-shadow: -3px -3px 2px rgba(0, 0, 0, 0.5) inset,
+    3px 3px 2px rgba(255, 255, 255, 0.5) inset;
+  border: none;
+  height: 100px;
+  width: 16px;
+  border-radius: 10px;
+  background: #ed5690;
+  margin-top: -4px;
+}
+
+.textBox {
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2),
+    inset 1px -66px 5px 0px rgba(255, 255, 255, 0.75);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 24px;
+  width: 70%;
+  height: 400px;
+  overflow-y: hidden;
+  background-color: #ffffff;
+  border-radius: 40px;
+}

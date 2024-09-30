@@ -1,0 +1,33 @@
+.title {
+  font-size: 96px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.hello {
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.title > p {
+  margin: 0;
+}
+
+.title > p > span {
+  font-family: sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.title > p > div {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nextButton {
+  margin-left: 20px;
+  height: 40px;
+}
