@@ -8,3 +8,36 @@
   background-size: cover;
 }
 
+img {
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+.sliderContainer {
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sliderContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  box-sizing: border-box;
+  position: relative;
+  padding-top: min(140px, 15vh);
+  padding-left: 64px;
+  padding-right: 64px;
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+

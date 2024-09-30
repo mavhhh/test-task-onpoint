@@ -14,7 +14,7 @@ import spermOffFocus from "../../../assets/first/micro-sperm-off-focus.png";
 
 import styles from "./First.module.css";
 
-export const First = () => {
+export const First = ({ scrollTo }) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.hello}>
@@ -27,6 +27,10 @@ export const First = () => {
           <div>
             задание
             <Button
+              onClick={() => {
+                console.log("scr");
+                scrollTo(1);
+              }}
               style={{ marginLeft: "40px" }}
               text="Что дальше?"
               Icon={RightArrow}

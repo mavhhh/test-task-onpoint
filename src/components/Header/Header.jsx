@@ -5,10 +5,12 @@ import projectIcon from "../../assets/project-icon.png";
 
 import styles from "./Header.module.css";
 
-export const Header = () => {
+export const Header = ({ scrollTo }) => {
   return (
     <div className={styles.wrapper}>
-      <img className={styles.homeIcon} src={homeIcon} alt="icon home" />
+      <div onClick={() => scrollTo(0)} className={styles.btn}>
+        <img className={styles.homeIcon} src={homeIcon} alt="icon home" />
+      </div>
       <img className={styles.separatorIcon} src={separatorIcon} alt="|" />
       <img className={styles.projectIcon} src={projectIcon} alt="project" />
     </div>

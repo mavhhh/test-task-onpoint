@@ -34,6 +34,7 @@
   border-radius: 10px;
   background: #ed5690;
   margin-top: -4px;
+  cursor: grab;
 }
 
 .textBox {

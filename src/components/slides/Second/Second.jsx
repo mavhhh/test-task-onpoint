@@ -13,7 +13,7 @@ export const Second = ({ iscurr }) => {
   useEffect(() => {
     let timer;
     if (iscurr) {
-      timer = setTimeout(() => setIsVisible(true), 500);
+      timer = setTimeout(() => setIsVisible(true), 200);
     }
 
     return () => {

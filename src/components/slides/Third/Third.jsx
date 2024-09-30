@@ -12,7 +12,7 @@ import { ReactComponent as Plus } from "../../../assets/svg/plus.svg";
 
 import styles from "./Third.module.css";
 
-export const Third = () => {
+export const Third = ({ setModalActive }) => {
   return (
     <>
       <div className={styles.wrapper}>
@@ -34,7 +34,11 @@ export const Third = () => {
             <Card pic={calendarPic}>
               A arcu <br /> cursus vitae
             </Card>
-            <Button text="Подробнее" Icon={Plus} />
+            <Button
+              onClick={() => setModalActive(true)}
+              text="Подробнее"
+              Icon={Plus}
+            />
           </div>
         </div>
 

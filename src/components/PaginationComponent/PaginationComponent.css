@@ -1,0 +1,90 @@
+.container {
+  text-align: left;
+  padding: 20px;
+  width: 500px;
+}
+
+.content {
+  padding-left: 90px;
+}
+
+.title {
+  color: #000;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.brand-title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 80px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.brand-bold {
+  font-weight: bold;
+  color: #000;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.item-id {
+  color: #009dff; /* Синий цвет для номеров */
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.item-text {
+  font-size: 16px;
+  color: #333;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  background-color: #fff;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.pagination-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-indicator {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+h1 > strong {
+  margin-left: 20px;
+}
