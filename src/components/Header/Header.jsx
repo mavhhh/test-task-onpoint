@@ -3,8 +3,7 @@ import homeIcon from "../../assets/home-icon.png";
 import separatorIcon from "../../assets/separator-icon.png";
 import projectIcon from "../../assets/project-icon.png";
 
-import styles from './Header.module.css'
-
+import styles from "./Header.module.css";
 
 export const Header = () => {
   return (

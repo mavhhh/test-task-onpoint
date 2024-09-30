@@ -1,3 +1,9 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
 .title {
   font-size: 96px;
   font-weight: 300;
@@ -30,4 +36,175 @@
 .nextButton {
   margin-left: 20px;
   height: 40px;
+}
+
+.microLong {
+  position: absolute;
+  left: -100px;
+  top: 72px;
+  width: 180px;
+  height: 120px;
+  z-index: 16;
+}
+
+.sperm {
+  position: absolute;
+  left: 410px;
+  top: 140px;
+  width: 600px;
+  height: 90px;
+  z-index: 11;
+}
+
+.microOffFocus1 {
+  position: absolute;
+  right: 100px;
+  top: 40px;
+  width: 70px;
+  height: 70px;
+  z-index: 14;
+  animation: float3 19s infinite alternate ease;
+}
+
+.microOffFocus2 {
+  position: absolute;
+  left: 350px;
+  bottom: 60px;
+  width: 80px;
+  height: 80px;
+  z-index: 13;
+  animation: float2 27s infinite alternate ease;
+}
+
+.spermOffFocus {
+  position: absolute;
+  left: -70px;
+  bottom: 80px;
+  width: 300px;
+  height: 120px;
+  z-index: 3;
+}
+
+.microRoundLarge {
+  position: absolute;
+  left: 540px;
+  bottom: -100px;
+  width: 300px;
+  height: 240px;
+  z-index: 12;
+  animation: float1 29s infinite alternate ease;
+}
+
+.microRoundMedium {
+  position: absolute;
+  right: 100px;
+  top: 160px;
+  width: 120px;
+  height: 120px;
+  z-index: 17;
+  animation: float3 23s infinite alternate ease;
+}
+
+.microRoundSmooth1 {
+  position: absolute;
+  left: 40px;
+  top: 480px;
+  width: 80px;
+  height: 80px;
+  z-index: 4;
+  animation: float2 21s infinite alternate ease;
+}
+
+.microRoundSmooth2 {
+  position: absolute;
+  right: 280px;
+  top: 40px;
+  width: 60px;
+  height: 60px;
+  z-index: 15;
+  animation: float1 31s infinite alternate ease;
+}
+
+@keyframes float1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(20px, -10px);
+  }
+  20% {
+    transform: translate(-8px, 13px);
+  }
+  30% {
+    transform: translate(20px, 10px);
+  }
+  40% {
+    transform: translate(-10px, -20px);
+  }
+  50% {
+    transform: translate(10px, 7px);
+  }
+  60% {
+    transform: translate(-30px, 5px);
+  }
+  70% {
+    transform: translate(15px, -15px);
+  }
+  80% {
+    transform: translate(-10px, 30px);
+  }
+  90% {
+    transform: translate(15px, -25px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  15% {
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    transform: translate(10px, -15px);
+  }
+  45% {
+    transform: translate(-20px, 10px);
+  }
+  60% {
+    transform: translate(15px, -5px);
+  }
+  75% {
+    transform: translate(-21px, 5px);
+  }
+  90% {
+    transform: translate(12px, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes float3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(10px, -10px);
+  }
+  40% {
+    transform: translate(-5px, 20px);
+  }
+  60% {
+    transform: translate(10px, 30px);
+  }
+  80% {
+    transform: translate(-15px, -5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }

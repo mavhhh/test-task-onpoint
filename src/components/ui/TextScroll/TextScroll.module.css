@@ -1,7 +1,10 @@
 .textScrollContainer {
+  z-index: 50;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  width: 85vw;
+  text-wrap: wrap;
 }
 
 .scrollBar {
@@ -15,7 +18,7 @@
   -webkit-appearance: none;
   appearance: none;
   width: 4px;
-  height: 440px;
+  height: max(440px, 56vh);
   border-radius: 2px;
   background-color: black;
   transform: rotate(180deg);
@@ -34,13 +37,14 @@
 }
 
 .textBox {
+  z-index: 50;
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2),
     inset 1px -66px 5px 0px rgba(255, 255, 255, 0.75);
   font-size: 20px;
   font-weight: 400;
   padding: 24px;
   width: 70%;
-  height: 400px;
+  height: max(440px, calc(56vh - 40px));
   overflow-y: hidden;
   background-color: #ffffff;
   border-radius: 40px;

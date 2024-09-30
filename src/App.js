@@ -1,6 +1,8 @@
 import "./App.css";
+import Slider from "./components/Slider/Slider";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
+import { useState } from "react";
 
 import { First } from "./components/slides/First/First";
 import { Second } from "./components/slides/Second/Second";
@@ -14,9 +16,7 @@ function App() {
         <Footer />
 
         <div className="contentWrapper">
-          {/* <First /> */}
-          {/* <Second /> */}
-          <Third />
+          <Slider />
         </div>
       </div>
     </div>
