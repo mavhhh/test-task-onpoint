@@ -15,7 +15,8 @@ function App() {
 
         <div className="contentWrapper">
           {/* <First /> */}
-          <Second />
+          {/* <Second /> */}
+          <Third />
         </div>
       </div>
     </div>

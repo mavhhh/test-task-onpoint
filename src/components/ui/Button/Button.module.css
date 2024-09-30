@@ -19,13 +19,15 @@
   justify-content: center;
   background-color: black;
   border-radius: 100%;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
+  box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.5),
+    2px 2px 2px rgba(255, 255, 255, 0.5);
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   color: white;
 }
 

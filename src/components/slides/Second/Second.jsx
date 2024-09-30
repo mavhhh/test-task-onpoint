@@ -1,6 +1,7 @@
 import React from "react";
 import { TextScroll } from "../../ui/TextScroll/TextScroll";
 
+
 import styles from "./Second.module.css";
 
 export const Second = () => {
@@ -11,7 +12,6 @@ export const Second = () => {
           Текст <br />
           сообщения
         </p>
-        {/* <Scroll /> */}
         <TextScroll />
       </div>
     </div>
